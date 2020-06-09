@@ -3,7 +3,7 @@
 ## 構成
 
 * shared/
-  * shared-providers.tf
+  * shared-XXX.tf
 * modules/
   * iam/...
 * env/
