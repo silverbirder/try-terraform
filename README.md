@@ -14,3 +14,4 @@
         * terraform.tfvars
     * stage/
     * prod/
+* .terraform-version
