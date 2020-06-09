@@ -15,3 +15,8 @@
     * stage/
     * prod/
 * .terraform-version
+
+## Linter
+
+* terraform fmt
+* tflint
