@@ -1,6 +1,4 @@
-variable "project_id" {
-  default = "silverbirder"
-}
+variable "project_id" {}
 
 variable "gcs_location" {
   default = "ASIA-NORTHEAST1"
