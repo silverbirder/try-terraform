@@ -29,7 +29,7 @@
 ## Env
 ```bash
 $ export PROJECT_ID=
-$ export BUCKET_NAME_BACKEND=
+$ export BUCKET_NAME="${PROJECT_ID}-storage-bucket"
 $ export LOCATION=
 ```
 
@@ -38,7 +38,7 @@ $ export LOCATION=
 // For GCS Backend Auth
 $ gcloud auth application-default login
 // Create Backet For Backend
-$ gsutil mb -p $PROJECT_ID -l $LOCATION gs://$BUCKET_NAME_FOR_BACKEND
+$ gsutil mb -p $PROJECT_ID -l $LOCATION gs://$BUCKET_NAME
 $ tfenv install
 $ terraform init
 $ terraform import google_storage_bucket.tfstate $BUCKET_NAME
