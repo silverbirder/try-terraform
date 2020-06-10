@@ -1,4 +1,15 @@
-variable "project_id" {}
-variable "env_name" {}
-variable "gcs_location" {}
-variable "primary_region" {}
+variable "project_id" {
+  default = "silverbirder"
+}
+
+variable "gcs_location" {
+  default = "ASIA-NORTHEAST1"
+}
+
+variable "primary_region" {
+  default = "asia-northeast1"
+}
+
+variable "env_name" {
+  default = "dev"
+}
