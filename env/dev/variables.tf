@@ -4,8 +4,12 @@ variable "gcs_location" {
   default = "ASIA-NORTHEAST1"
 }
 
-variable "primary_region" {
+variable "region" {
   default = "asia-northeast1"
+}
+
+variable "zone" {
+  default = "asia-northeast1-b"
 }
 
 variable "env_name" {
