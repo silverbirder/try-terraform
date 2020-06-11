@@ -31,6 +31,7 @@
 $ export PROJECT_ID=
 $ export BUCKET_NAME="${PROJECT_ID}-storage-bucket"
 $ export LOCATION=
+$ export GOOGLE_PROJECT=$PROJECT_ID
 ```
 
 ## First time
